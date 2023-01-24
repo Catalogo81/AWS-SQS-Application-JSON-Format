@@ -1,0 +1,13 @@
+server:
+  port: 9091
+
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    credentials:
+      access-key: AKIAU57TVT4LJNQSXU67
+      secret-key: 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
+    end-point:
+      uri: https://sqs.us-east-1.amazonaws.com/339276570390/my-sqs-queue
