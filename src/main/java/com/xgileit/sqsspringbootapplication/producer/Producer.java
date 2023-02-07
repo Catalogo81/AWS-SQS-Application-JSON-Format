@@ -30,6 +30,8 @@ public class Producer {
     @PostMapping("/message")
     public Student sendMessage(@RequestBody Student student) {
 
+        //need to implement where I can also send a list of messages/objects to the queue and also retrieve all or by id
+
         try {
             ObjectMapper mapper = new ObjectMapper();
             String jsonString = mapper.writeValueAsString(student);
